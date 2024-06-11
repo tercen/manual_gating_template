@@ -1,0 +1,42 @@
+{
+ "kind": "FileDocument",
+ "id": ".github/workflows/ci.yml",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "ci.yml",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "4",
+ "dataUri": "lfs/d4/70/0beedb71976fdc028dbee233d51a2b83c61fb5439c12eca7dabd8cc5ff04",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 797
+}

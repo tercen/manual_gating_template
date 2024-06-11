@@ -1,0 +1,477 @@
+{
+ "kind": "ComputedTableSchema",
+ "id": "eea49c3602f2b0dd17854ce1a92fbbd62f5251f21fabf458cfcae61508cd5149",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "653b6460-08de-1022-908d-fb7e17ce7d8a",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "eea49c3602f2b0dd17854ce1a92fbbd62f5251f21fabf458cfcae61508cd5149"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 160000,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "b18159bb-d511-4c55-9e89-56d0714e6f6d",
+   "name": ".ci",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "115edec1-cd5c-4ae0-80fd-b43e07b1b6c5",
+   "name": ".ri",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "b0fda60a-a993-4405-a9d9-c78169c5d187",
+   "name": "logicle.value",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/ee/a4/eea49c3602f2b0dd17854ce1a92fbbd62f5251f21fabf458cfcae61508cd5149",
+ "relation": {
+  "kind": "Relation",
+  "id": "462189c9-879a-4b34-8f86-0e6f4eed9920"
+ },
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "CompositeRelation",
+   "id": "62aa09df-5dc9-4ad7-86f5-bbeb5cb31b92",
+   "joinOperators": [
+    {
+     "kind": "JoinOperator",
+     "joinType": "r.o.f",
+     "leftPair": {
+      "kind": "ColumnPair",
+      "lColumns": [
+       "channel.variable"
+      ],
+      "rColumns": [
+       "annot.channel_name"
+      ]
+     },
+     "rightRelation": {
+      "kind": "RenameRelation",
+      "id": "280aeabc-5c22-4782-9c5b-f6f0af6b11a5",
+      "relation": {
+       "kind": "RenameRelation",
+       "id": "cccd4ee6-d437-4a04-b3c7-0f3b287bc0ab",
+       "relation": {
+        "kind": "SimpleRelation",
+        "id": "1a8ebde8157c4cf4d6842e11ea7bdafdfaefa44e0f466d7ca093716b60135045",
+        "index": 2
+       },
+       "inNames": [
+        "channel_name",
+        "channel_description",
+        "channel_id",
+        "1a8ebde8157c4cf4d6842e11ea7bdafdfaefa44e0f466d7ca093716b60135045._rids"
+       ],
+       "outNames": [
+        "channel_name",
+        "channel_description",
+        "channel_id",
+        "rowId"
+       ]
+      },
+      "inNames": [
+       "channel_name",
+       "channel_description",
+       "channel_id",
+       "rowId"
+      ],
+      "outNames": [
+       "annot.channel_name",
+       "annot.channel_description",
+       "annot.channel_id",
+       "annot.rowId"
+      ]
+     }
+    }
+   ],
+   "mainRelation": {
+    "kind": "GatherRelation",
+    "id": "e6476c95-6019-46cf-84b0-5e388ce75a31",
+    "relation": {
+     "kind": "RenameRelation",
+     "id": "30498bdb-e3ec-41a7-ac78-4d0adf554842",
+     "relation": {
+      "kind": "CompositeRelation",
+      "id": "0c9c5803-f078-4c84-b0b0-b9ff255adb69",
+      "joinOperators": [
+       {
+        "kind": "JoinOperator",
+        "joinType": "leftOuter",
+        "leftPair": {
+         "kind": "ColumnPair",
+         "lColumns": [
+          "event_id"
+         ],
+         "rColumns": [
+          "event_id"
+         ]
+        },
+        "rightRelation": {
+         "kind": "SimpleRelation",
+         "id": "303c25f01cb978cdd86a575e61fae62f8075ee898fb9a44eedb3d86a4d61dfd4",
+         "index": 1
+        }
+       }
+      ],
+      "mainRelation": {
+       "kind": "SimpleRelation",
+       "id": "d4b9b860cb301bfdc5ce96d81c78284a945cc0055c91fb41ff002fa95a82d09a",
+       "index": 0
+      }
+     },
+     "inNames": [
+      "Time",
+      "SSC-H",
+      "SSC-A",
+      "FSC-H",
+      "FSC-A",
+      "SSC-B-H",
+      "SSC-B-A",
+      "BUV395-A",
+      "LIVE DEAD Blue-A",
+      "BUV496-A",
+      "BUV615-A",
+      "BUV563-A",
+      "BUV661-A",
+      "BUV737-A",
+      "BUV805-A",
+      "BV421-A",
+      "Super Bright 436-A",
+      "eFluor 450-A",
+      "BV480-A",
+      "BV510-A",
+      "Pacific Orange-A",
+      "BV570-A",
+      "BV605-A",
+      "BV650-A",
+      "BV711-A",
+      "BV750-A",
+      "BV785-A",
+      "BB515-A",
+      "FITC-A",
+      "Spark Blue 550-A",
+      "PerCP-A",
+      "PerCP-Cy5.5-A",
+      "PerCP-eFluor 710-A",
+      "PE-Fire810-A",
+      "PE-A",
+      "CF568-A",
+      "PE-Dazzle594-A",
+      "PE-Alexa Fluor 610-A",
+      "PE-Cy5-A",
+      "PE-Alexa Fluor 700-A",
+      "PE-Cy7-A",
+      "APC-A",
+      "Alexa Fluor 647-A",
+      "Spark NIR685-A",
+      "APC-R700-A",
+      "APC-H7-A",
+      "APC-Fire810-A",
+      "fileId",
+      "event_id",
+      "filename"
+     ],
+     "outNames": [
+      "Time",
+      "SSC-H",
+      "SSC-A",
+      "FSC-H",
+      "FSC-A",
+      "SSC-B-H",
+      "SSC-B-A",
+      "BUV395-A",
+      "LIVE DEAD Blue-A",
+      "BUV496-A",
+      "BUV615-A",
+      "BUV563-A",
+      "BUV661-A",
+      "BUV737-A",
+      "BUV805-A",
+      "BV421-A",
+      "Super Bright 436-A",
+      "eFluor 450-A",
+      "BV480-A",
+      "BV510-A",
+      "Pacific Orange-A",
+      "BV570-A",
+      "BV605-A",
+      "BV650-A",
+      "BV711-A",
+      "BV750-A",
+      "BV785-A",
+      "BB515-A",
+      "FITC-A",
+      "Spark Blue 550-A",
+      "PerCP-A",
+      "PerCP-Cy5.5-A",
+      "PerCP-eFluor 710-A",
+      "PE-Fire810-A",
+      "PE-A",
+      "CF568-A",
+      "PE-Dazzle594-A",
+      "PE-Alexa Fluor 610-A",
+      "PE-Cy5-A",
+      "PE-Alexa Fluor 700-A",
+      "PE-Cy7-A",
+      "APC-A",
+      "Alexa Fluor 647-A",
+      "Spark NIR685-A",
+      "APC-R700-A",
+      "APC-H7-A",
+      "APC-Fire810-A",
+      "fileId",
+      "event_id",
+      "filename"
+     ]
+    },
+    "names": [
+     "SSC-H",
+     "SSC-A",
+     "FSC-H",
+     "FSC-A",
+     "SSC-B-H",
+     "SSC-B-A",
+     "BUV395-A",
+     "LIVE DEAD Blue-A",
+     "BUV496-A",
+     "BUV615-A",
+     "BUV563-A",
+     "BUV661-A",
+     "BUV737-A",
+     "BUV805-A",
+     "BV421-A",
+     "Super Bright 436-A",
+     "eFluor 450-A",
+     "BV480-A",
+     "BV510-A",
+     "Pacific Orange-A",
+     "BV570-A",
+     "BV605-A",
+     "BV650-A",
+     "BV711-A",
+     "BV750-A",
+     "BV785-A",
+     "BB515-A",
+     "FITC-A",
+     "Spark Blue 550-A",
+     "PerCP-A",
+     "PerCP-Cy5.5-A",
+     "PerCP-eFluor 710-A",
+     "PE-Fire810-A",
+     "PE-A",
+     "CF568-A",
+     "PE-Dazzle594-A",
+     "PE-Alexa Fluor 610-A",
+     "PE-Cy5-A",
+     "PE-Alexa Fluor 700-A",
+     "PE-Cy7-A",
+     "APC-A",
+     "Alexa Fluor 647-A",
+     "Spark NIR685-A",
+     "APC-R700-A",
+     "APC-H7-A",
+     "APC-Fire810-A"
+    ],
+    "valueName": "channel.value",
+    "variableName": "channel.variable",
+    "valueType": "double",
+    "gatherType": "no.na"
+   }
+  },
+  "colColumns": [
+   {
+    "kind": "Factor",
+    "name": "filename",
+    "type": "string"
+   },
+   {
+    "kind": "Factor",
+    "name": "event_id",
+    "type": "int32"
+   }
+  ],
+  "rowColumns": [
+   {
+    "kind": "Factor",
+    "name": "channel.variable",
+    "type": "string"
+   },
+   {
+    "kind": "Factor",
+    "name": "annot.channel_description",
+    "type": "string"
+   }
+  ],
+  "axisQueries": [
+   {
+    "kind": "CubeAxisQuery",
+    "pointSize": 4,
+    "chartType": "point",
+    "yAxis": {
+     "kind": "Factor",
+     "name": "channel.value",
+     "type": "double"
+    },
+    "yAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "xAxis": {
+     "kind": "Factor",
+     "name": "",
+     "type": "string"
+    },
+    "xAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "errors": [],
+    "labels": [],
+    "colors": [],
+    "preprocessors": []
+   }
+  ],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": [
+    {
+     "kind": "NamedFilter",
+     "logical": "or",
+     "not": true,
+     "filterExprs": [
+      {
+       "kind": "FilterExpr",
+       "filterOp": "match",
+       "stringValue": "[FS]SC.*",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel.variable",
+        "type": "string"
+       }
+      }
+     ],
+     "meta": [],
+     "name": "channel.variable"
+    }
+   ]
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "logicle",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "Logicle",
+    "version": "1.0.2",
+    "operatorId": "2",
+    "operatorKind": "ROperator",
+    "propertyValues": [],
+    "url": {
+     "kind": "Url",
+     "uri": "https://github.com/tercen/logicle_operator"
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [
+    {
+     "kind": "Pair",
+     "key": "cpu",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "ram",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "cpu-shares",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "tercen.collect.stats",
+     "value": "false"
+    },
+    {
+     "kind": "Pair",
+     "key": "debug",
+     "value": "false"
+    }
+   ],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}

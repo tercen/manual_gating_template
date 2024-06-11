@@ -1,0 +1,1168 @@
+{
+ "kind": "ComputedTableSchema",
+ "id": "f813b4b2ae6ada396c277e5eb6fbd3205ec1f8a33e75dee72a4c3c713fa85dd8",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "0d0643f0-0a9b-1022-908d-fb7e17ce7d8a",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "f813b4b2ae6ada396c277e5eb6fbd3205ec1f8a33e75dee72a4c3c713fa85dd8"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 4000,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "87a194a4-ddc5-4093-94b4-70f5b3f3e9d8",
+   "name": "channel_trans.CCR5",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "d554e96b-885a-4b19-8262-765c025ef78f",
+   "name": "channel_trans.CCR6",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "ada73c31-6723-4f37-b8c0-b7cec7381d44",
+   "name": "channel_trans.CCR7",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "7e9b5c47-8365-4f8f-a495-30d99eab51a4",
+   "name": "channel_trans.CD11c",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "9708a9fc-af6a-4749-8555-b23497a1eec7",
+   "name": "channel_trans.CD123",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "3d1e218a-52eb-4d33-8308-698cd17a99d0",
+   "name": "channel_trans.CD127",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "917655ce-1ac3-414f-9969-6a5fe9d319ab",
+   "name": "channel_trans.CD14",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "5c10bf5e-a045-4135-90a4-f4e9e307698a",
+   "name": "channel_trans.CD141",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "b1cc94c4-9d3c-48f0-8a59-146353f2dc75",
+   "name": "channel_trans.CD159a",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "2ecad33f-6fa8-4935-9c18-8c8ffd637ecd",
+   "name": "channel_trans.CD159c",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "a05898a9-6a1a-4073-9e85-c6de9fce6964",
+   "name": "channel_trans.CD16",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "60153236-3e99-477e-a7e9-83c838dd7ae3",
+   "name": "channel_trans.CD19",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "a74e3bbd-11bf-46c9-8912-ad8026b923da",
+   "name": "channel_trans.CD1c",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "c682bada-1dc2-450b-9fa1-7811b0631dc2",
+   "name": "channel_trans.CD2",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "bd44cf41-c644-42ed-97e6-e54398e66687",
+   "name": "channel_trans.CD20",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "b5aba84b-4704-4328-beb5-fa70050fe1c0",
+   "name": "channel_trans.CD24",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "c897061e-75c5-4826-b406-daa8f39176c4",
+   "name": "channel_trans.CD25",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "f6281d80-4a76-4efb-acec-685f0346218f",
+   "name": "channel_trans.CD27",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "4af39faa-0464-4f77-bb27-2c554b9e742f",
+   "name": "channel_trans.CD28",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "a2f3dc00-b4db-42b7-b57a-55ec63612f93",
+   "name": "channel_trans.CD3",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "7d8cd4a8-1ff9-4dfe-ac3e-f547977286db",
+   "name": "channel_trans.CD314",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "1035e480-640d-4ed2-835d-4aa8a6ba7c8c",
+   "name": "channel_trans.CD337",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "2e59d85f-6f9c-49c0-a717-74a8f67bc658",
+   "name": "channel_trans.CD38",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "9c7242d5-06b4-4049-8ba5-bd1ed4c039c9",
+   "name": "channel_trans.CD39",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "5a3900cb-5b02-4cab-807e-f39a1ca75a3d",
+   "name": "channel_trans.CD4",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "d7907e65-8f95-4fe8-9bf3-f2cb938ec71f",
+   "name": "channel_trans.CD45",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "d6086637-fe1e-41f8-af0a-595116a53e93",
+   "name": "channel_trans.CD45RA",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "514894cf-23f0-4137-93f5-5a8027f2c759",
+   "name": "channel_trans.CD56",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "fdd82bd7-d28e-4f5f-b0aa-fdd8c5a5edef",
+   "name": "channel_trans.CD57",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "b11c6e7b-941b-445c-a285-44a162a4844b",
+   "name": "channel_trans.CD8",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "112b208e-ba64-405f-a8a4-a2bc60ca7fb4",
+   "name": "channel_trans.CD95",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "4ff70329-c9aa-4aa8-b1d1-f4d7de27f724",
+   "name": "channel_trans.CXCR3",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "d3d8af29-63f8-48d6-b53e-97d2f58c7b2e",
+   "name": "channel_trans.CXCR5",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "182a7b18-39e9-462c-980f-5bd5b70a2a80",
+   "name": "channel_trans.HLADR",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "14d5b127-76bc-4a24-b5b3-a94cde888100",
+   "name": "channel_trans.IgD",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "cf906d43-3aad-4649-a08d-be214c24abc9",
+   "name": "channel_trans.IgG",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "b6013424-9fa8-4ec9-a346-cacbd31c47fa",
+   "name": "channel_trans.IgM",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "a3c27412-cf85-40a3-9cb9-6a3e9f018d72",
+   "name": "channel_trans.LIVE DEAD Blue-A",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "6fb39ab7-d873-480d-8c6d-1c97a7931417",
+   "name": "channel_trans.PD-1",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "5e7ffd47-e1de-49bd-8a82-d563dc8cd2df",
+   "name": "channel_trans.TCRgd",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "ba2ab4f1-7100-4fb6-866c-02d6dcefa071",
+   "name": ".ri",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/f8/13/f813b4b2ae6ada396c277e5eb6fbd3205ec1f8a33e75dee72a4c3c713fa85dd8",
+ "relation": {
+  "kind": "Relation",
+  "id": "f326007f-dc63-4ea4-a542-9140220e248c"
+ },
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "CompositeRelation",
+   "id": "ba7699c6-5565-46d2-a16d-62a4510eb95e",
+   "joinOperators": [
+    {
+     "kind": "JoinOperator",
+     "joinType": "leftOuter",
+     "leftPair": {
+      "kind": "ColumnPair",
+      "lColumns": [
+       "filename",
+       "event_id",
+       "channel.variable",
+       "annot.channel_description"
+      ],
+      "rColumns": [
+       "filename",
+       "event_id",
+       "channel.variable",
+       "annot.channel_description"
+      ]
+     },
+     "rightRelation": {
+      "kind": "RenameRelation",
+      "id": "251e254e-6df1-41b0-8cea-3ad8fd468216",
+      "relation": {
+       "kind": "CompositeRelation",
+       "id": "46d609ca-43f0-47c2-919b-b8a0029bc9e3",
+       "joinOperators": [
+        {
+         "kind": "JoinOperator",
+         "joinType": "leftOuter",
+         "leftPair": {
+          "kind": "ColumnPair",
+          "lColumns": [
+           ".ri"
+          ],
+          "rColumns": [
+           "156d4df5889e3fe08291bf7f271151a6908822c6d068bddefea6f6c07e762650._rids"
+          ]
+         },
+         "rightRelation": {
+          "kind": "SimpleRelation",
+          "id": "156d4df5889e3fe08291bf7f271151a6908822c6d068bddefea6f6c07e762650",
+          "index": 5
+         }
+        }
+       ],
+       "mainRelation": {
+        "kind": "CompositeRelation",
+        "id": "316bf4cd-ee72-4e8b-9749-fb8d8bb69b43",
+        "joinOperators": [
+         {
+          "kind": "JoinOperator",
+          "joinType": "leftOuter",
+          "leftPair": {
+           "kind": "ColumnPair",
+           "lColumns": [
+            ".ci"
+           ],
+           "rColumns": [
+            "f8e3e6b902e60300d34673ebba76508fa67653ad943c52a7e6f55b5ad5321684._rids"
+           ]
+          },
+          "rightRelation": {
+           "kind": "SimpleRelation",
+           "id": "f8e3e6b902e60300d34673ebba76508fa67653ad943c52a7e6f55b5ad5321684",
+           "index": 4
+          }
+         }
+        ],
+        "mainRelation": {
+         "kind": "SimpleRelation",
+         "id": "eea49c3602f2b0dd17854ce1a92fbbd62f5251f21fabf458cfcae61508cd5149",
+         "index": 3
+        }
+       }
+      },
+      "inNames": [
+       ".ci",
+       ".ri",
+       "logicle.value",
+       "eea49c3602f2b0dd17854ce1a92fbbd62f5251f21fabf458cfcae61508cd5149._rids",
+       "eea49c3602f2b0dd17854ce1a92fbbd62f5251f21fabf458cfcae61508cd5149.tlbId",
+       "filename",
+       "event_id",
+       "f8e3e6b902e60300d34673ebba76508fa67653ad943c52a7e6f55b5ad5321684._rids",
+       "f8e3e6b902e60300d34673ebba76508fa67653ad943c52a7e6f55b5ad5321684.tlbId",
+       "channel.variable",
+       "annot.channel_description",
+       "156d4df5889e3fe08291bf7f271151a6908822c6d068bddefea6f6c07e762650._rids",
+       "156d4df5889e3fe08291bf7f271151a6908822c6d068bddefea6f6c07e762650.tlbId",
+       "filename",
+       "event_id",
+       "channel.variable",
+       "annot.channel_description"
+      ],
+      "outNames": [
+       ".ci",
+       ".ri",
+       "logicle.value",
+       "eea49c3602f2b0dd17854ce1a92fbbd62f5251f21fabf458cfcae61508cd5149._rids",
+       "eea49c3602f2b0dd17854ce1a92fbbd62f5251f21fabf458cfcae61508cd5149.tlbId",
+       "filename",
+       "event_id",
+       "f8e3e6b902e60300d34673ebba76508fa67653ad943c52a7e6f55b5ad5321684._rids",
+       "f8e3e6b902e60300d34673ebba76508fa67653ad943c52a7e6f55b5ad5321684.tlbId",
+       "channel.variable",
+       "annot.channel_description",
+       "156d4df5889e3fe08291bf7f271151a6908822c6d068bddefea6f6c07e762650._rids",
+       "156d4df5889e3fe08291bf7f271151a6908822c6d068bddefea6f6c07e762650.tlbId",
+       "logicle..filename",
+       "logicle..event_id",
+       "logicle..variable",
+       "logicle..channel_description"
+      ]
+     }
+    }
+   ],
+   "mainRelation": {
+    "kind": "CompositeRelation",
+    "id": "08e49cb4-ca6b-4ce1-b1b1-c2ad7f9a9a73",
+    "joinOperators": [
+     {
+      "kind": "JoinOperator",
+      "joinType": "r.o.f",
+      "leftPair": {
+       "kind": "ColumnPair",
+       "lColumns": [
+        "channel.variable"
+       ],
+       "rColumns": [
+        "annot.channel_name"
+       ]
+      },
+      "rightRelation": {
+       "kind": "RenameRelation",
+       "id": "e81ee10c-cc0a-49c8-83f7-b705b2d83794",
+       "relation": {
+        "kind": "RenameRelation",
+        "id": "cdbfcf22-6fa6-4c1b-ad86-d56f16996eff",
+        "relation": {
+         "kind": "SimpleRelation",
+         "id": "1a8ebde8157c4cf4d6842e11ea7bdafdfaefa44e0f466d7ca093716b60135045",
+         "index": 2
+        },
+        "inNames": [
+         "channel_name",
+         "channel_description",
+         "channel_id",
+         "1a8ebde8157c4cf4d6842e11ea7bdafdfaefa44e0f466d7ca093716b60135045._rids"
+        ],
+        "outNames": [
+         "channel_name",
+         "channel_description",
+         "channel_id",
+         "rowId"
+        ]
+       },
+       "inNames": [
+        "channel_name",
+        "channel_description",
+        "channel_id",
+        "rowId"
+       ],
+       "outNames": [
+        "annot.channel_name",
+        "annot.channel_description",
+        "annot.channel_id",
+        "annot.rowId"
+       ]
+      }
+     }
+    ],
+    "mainRelation": {
+     "kind": "GatherRelation",
+     "id": "ba74aa3a-75a3-49bf-88af-13415b2a53d3",
+     "relation": {
+      "kind": "RenameRelation",
+      "id": "36a9472c-56b6-44cb-a8a2-bd932314a449",
+      "relation": {
+       "kind": "CompositeRelation",
+       "id": "f86eb40b-b744-4e2d-91f6-752e649305b1",
+       "joinOperators": [
+        {
+         "kind": "JoinOperator",
+         "joinType": "leftOuter",
+         "leftPair": {
+          "kind": "ColumnPair",
+          "lColumns": [
+           "event_id"
+          ],
+          "rColumns": [
+           "event_id"
+          ]
+         },
+         "rightRelation": {
+          "kind": "SimpleRelation",
+          "id": "303c25f01cb978cdd86a575e61fae62f8075ee898fb9a44eedb3d86a4d61dfd4",
+          "index": 1
+         }
+        }
+       ],
+       "mainRelation": {
+        "kind": "SimpleRelation",
+        "id": "d4b9b860cb301bfdc5ce96d81c78284a945cc0055c91fb41ff002fa95a82d09a",
+        "index": 0
+       }
+      },
+      "inNames": [
+       "Time",
+       "SSC-H",
+       "SSC-A",
+       "FSC-H",
+       "FSC-A",
+       "SSC-B-H",
+       "SSC-B-A",
+       "BUV395-A",
+       "LIVE DEAD Blue-A",
+       "BUV496-A",
+       "BUV615-A",
+       "BUV563-A",
+       "BUV661-A",
+       "BUV737-A",
+       "BUV805-A",
+       "BV421-A",
+       "Super Bright 436-A",
+       "eFluor 450-A",
+       "BV480-A",
+       "BV510-A",
+       "Pacific Orange-A",
+       "BV570-A",
+       "BV605-A",
+       "BV650-A",
+       "BV711-A",
+       "BV750-A",
+       "BV785-A",
+       "BB515-A",
+       "FITC-A",
+       "Spark Blue 550-A",
+       "PerCP-A",
+       "PerCP-Cy5.5-A",
+       "PerCP-eFluor 710-A",
+       "PE-Fire810-A",
+       "PE-A",
+       "CF568-A",
+       "PE-Dazzle594-A",
+       "PE-Alexa Fluor 610-A",
+       "PE-Cy5-A",
+       "PE-Alexa Fluor 700-A",
+       "PE-Cy7-A",
+       "APC-A",
+       "Alexa Fluor 647-A",
+       "Spark NIR685-A",
+       "APC-R700-A",
+       "APC-H7-A",
+       "APC-Fire810-A",
+       "fileId",
+       "event_id",
+       "filename"
+      ],
+      "outNames": [
+       "Time",
+       "SSC-H",
+       "SSC-A",
+       "FSC-H",
+       "FSC-A",
+       "SSC-B-H",
+       "SSC-B-A",
+       "BUV395-A",
+       "LIVE DEAD Blue-A",
+       "BUV496-A",
+       "BUV615-A",
+       "BUV563-A",
+       "BUV661-A",
+       "BUV737-A",
+       "BUV805-A",
+       "BV421-A",
+       "Super Bright 436-A",
+       "eFluor 450-A",
+       "BV480-A",
+       "BV510-A",
+       "Pacific Orange-A",
+       "BV570-A",
+       "BV605-A",
+       "BV650-A",
+       "BV711-A",
+       "BV750-A",
+       "BV785-A",
+       "BB515-A",
+       "FITC-A",
+       "Spark Blue 550-A",
+       "PerCP-A",
+       "PerCP-Cy5.5-A",
+       "PerCP-eFluor 710-A",
+       "PE-Fire810-A",
+       "PE-A",
+       "CF568-A",
+       "PE-Dazzle594-A",
+       "PE-Alexa Fluor 610-A",
+       "PE-Cy5-A",
+       "PE-Alexa Fluor 700-A",
+       "PE-Cy7-A",
+       "APC-A",
+       "Alexa Fluor 647-A",
+       "Spark NIR685-A",
+       "APC-R700-A",
+       "APC-H7-A",
+       "APC-Fire810-A",
+       "fileId",
+       "event_id",
+       "filename"
+      ]
+     },
+     "names": [
+      "SSC-H",
+      "SSC-A",
+      "FSC-H",
+      "FSC-A",
+      "SSC-B-H",
+      "SSC-B-A",
+      "BUV395-A",
+      "LIVE DEAD Blue-A",
+      "BUV496-A",
+      "BUV615-A",
+      "BUV563-A",
+      "BUV661-A",
+      "BUV737-A",
+      "BUV805-A",
+      "BV421-A",
+      "Super Bright 436-A",
+      "eFluor 450-A",
+      "BV480-A",
+      "BV510-A",
+      "Pacific Orange-A",
+      "BV570-A",
+      "BV605-A",
+      "BV650-A",
+      "BV711-A",
+      "BV750-A",
+      "BV785-A",
+      "BB515-A",
+      "FITC-A",
+      "Spark Blue 550-A",
+      "PerCP-A",
+      "PerCP-Cy5.5-A",
+      "PerCP-eFluor 710-A",
+      "PE-Fire810-A",
+      "PE-A",
+      "CF568-A",
+      "PE-Dazzle594-A",
+      "PE-Alexa Fluor 610-A",
+      "PE-Cy5-A",
+      "PE-Alexa Fluor 700-A",
+      "PE-Cy7-A",
+      "APC-A",
+      "Alexa Fluor 647-A",
+      "Spark NIR685-A",
+      "APC-R700-A",
+      "APC-H7-A",
+      "APC-Fire810-A"
+     ],
+     "valueName": "channel.value",
+     "variableName": "channel.variable",
+     "valueType": "double",
+     "gatherType": "no.na"
+    }
+   }
+  },
+  "colColumns": [
+   {
+    "kind": "Factor",
+    "name": "logicle..channel_description",
+    "type": "string"
+   }
+  ],
+  "rowColumns": [
+   {
+    "kind": "Factor",
+    "name": "logicle..filename",
+    "type": "string"
+   },
+   {
+    "kind": "Factor",
+    "name": "logicle..event_id",
+    "type": "int32"
+   }
+  ],
+  "axisQueries": [
+   {
+    "kind": "CubeAxisQuery",
+    "pointSize": 4,
+    "chartType": "point",
+    "yAxis": {
+     "kind": "Factor",
+     "name": "logicle.value",
+     "type": "double"
+    },
+    "yAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "xAxis": {
+     "kind": "Factor",
+     "name": "",
+     "type": "string"
+    },
+    "xAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "errors": [],
+    "labels": [],
+    "colors": [],
+    "preprocessors": []
+   }
+  ],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": [
+    {
+     "kind": "NamedFilter",
+     "logical": "or",
+     "not": true,
+     "filterExprs": [
+      {
+       "kind": "FilterExpr",
+       "filterOp": "match",
+       "stringValue": "[FS]SC.*",
+       "factor": {
+        "kind": "Factor",
+        "name": "channel.variable",
+        "type": "string"
+       }
+      }
+     ],
+     "meta": [],
+     "name": "channel.variable"
+    }
+   ]
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "channel_trans",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "Ungather",
+    "version": "1.0.0",
+    "operatorId": "1",
+    "operatorKind": "Operator",
+    "propertyValues": [
+     {
+      "kind": "PropertyValue",
+      "name": "Max factors",
+      "value": "200"
+     }
+    ],
+    "url": {
+     "kind": "Url",
+     "uri": ""
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [
+    {
+     "kind": "Pair",
+     "key": "cpu",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "ram",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "cpu-shares",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "tercen.collect.stats",
+     "value": "false"
+    },
+    {
+     "kind": "Pair",
+     "key": "debug",
+     "value": "false"
+    }
+   ],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}
