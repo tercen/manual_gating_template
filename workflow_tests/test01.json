@@ -20,13 +20,7 @@
  },
  "urls": [],
  "tags": [],
- "meta": [
-  {
-   "kind": "Pair",
-   "key": "PUBLISHED",
-   "value": "true"
-  }
- ],
+ "meta": [],
  "url": {
   "kind": "Url",
   "uri": ""
