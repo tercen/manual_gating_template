@@ -1,6 +1,6 @@
 {
  "kind": "Workflow",
- "id": "5",
+ "id": "8",
  "isDeleted": false,
  "rev": "",
  "description": "A Tercen workflow to preprocess flow cytometry data and initialise a Manual Gating step.",

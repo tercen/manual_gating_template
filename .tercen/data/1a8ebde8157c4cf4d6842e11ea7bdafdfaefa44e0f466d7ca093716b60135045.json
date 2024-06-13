@@ -25,11 +25,6 @@
  "meta": [
   {
    "kind": "Pair",
-   "key": "PUBLISHED",
-   "value": "true"
-  },
-  {
-   "kind": "Pair",
    "key": "SHA256",
    "value": "1a8ebde8157c4cf4d6842e11ea7bdafdfaefa44e0f466d7ca093716b60135045"
   }
@@ -41,7 +36,7 @@
  "version": "",
  "isPublic": false,
  "projectId": "",
- "folderId": "6",
+ "folderId": "4",
  "nRows": 46,
  "columns": [
   {

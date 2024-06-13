@@ -22,13 +22,7 @@
  "tags": [
   "flow cytometry"
  ],
- "meta": [
-  {
-   "kind": "Pair",
-   "key": "PUBLISHED",
-   "value": "true"
-  }
- ],
+ "meta": [],
  "url": {
   "kind": "Url",
   "uri": ""
@@ -36,7 +30,7 @@
  "version": "",
  "isPublic": false,
  "projectId": "",
- "folderId": "6",
+ "folderId": "4",
  "nRows": 0,
  "columns": [],
  "dataDirectory": "",
